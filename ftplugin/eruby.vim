@@ -90,9 +90,6 @@ if exists("loaded_matchit")
   let b:match_words = s:match_words
 endif
 
-" TODO: comments=
-setlocal commentstring=<%#%s%>
-
 let b:undo_ftplugin = "setl cms< "
       \ " | unlet! b:browsefilter b:match_words | " . s:undo_ftplugin
 
